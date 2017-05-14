@@ -1,16 +1,16 @@
 class Appicon < Formula
   desc "Generation of iOS AppIcon.appiconset made easy"
   homepage "https://github.com/Nonchalant/AppIcon"
-  url "https://github.com/Nonchalant/AppIcon/archive/0.2.1.tar.gz"
-  sha256 "8e415053e18681cc3b940e5b77d1aeda889760e9c44d97ac60bb3327a406c761"
+  url "https://github.com/Nonchalant/AppIcon/archive/0.2.2.tar.gz"
+  sha256 "063bfb8a1359417c5ec8394e08bbfa92a3e1d2248615ae28c229cd565b6c92ba"
 
   head 'https://github.com/Nonchalant/AppIcon.git', :branch => 'master'
 
   depends_on :xcode => ["8.3", :build]
 
   bottle do
-    root_url "https://github.com/Nonchalant/AppIcon/releases/download/0.2.1"
-    sha256 "2dd13bc1266994083c901dd705a11d756476ca5bfcd39fb4b082a11b23872c98" => :sierra
+    root_url "https://github.com/Nonchalant/AppIcon/releases/download/0.2.2"
+    sha256 "063bfb8a1359417c5ec8394e08bbfa92a3e1d2248615ae28c229cd565b6c92ba" => :sierra
   end
 
   def install
