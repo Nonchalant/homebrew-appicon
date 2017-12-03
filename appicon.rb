@@ -11,6 +11,7 @@ class Appicon < Formula
   bottle do
     root_url "https://github.com/Nonchalant/AppIcon/releases/download/0.3.3"
     sha256 "872c23ce268f5946c14f3d8ac1dd974ae2ae08ce3d1f3966681280dec5413acd" => :sierra
+    sha256 "473ee5c14f533844fded0da3c1fbdc4f80e3fc7d92f2ca8fc3a1b7c588519bcb" => :high_sierra
   end
 
   def install
